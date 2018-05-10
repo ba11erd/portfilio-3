@@ -1,0 +1,208 @@
+/* Stylesheet for Portfolio */
+
+html, body, div, header, h1, h2, h3, h4, h5, h6, nav, ul, ol, li, p, footer{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100%;
+}
+
+#container{
+    width: 2000px;
+    border: 10px outset #3d27e5;
+    margin: auto;
+    background-color: #333333;
+}
+
+
+
+header {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #333333;
+}
+
+#topTitle {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3px;
+    font-family: Black Han Sans;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+nav {
+    width:60%;
+    background-color: #0000ff;
+    clear: both;
+    font-family: cursive;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px #7056ff;
+    color: #ffffff;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    list-style:none;
+    color: #ffffff;
+}
+
+nav ul li {
+    float:left;
+    color: #ffffff;
+}
+
+nav ul li a {
+    display:block;
+    color: black;
+    text-align:center;
+    text-decoration:none;
+    padding:14px 16px;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background-color: #000aff;
+    color: #ffffff;
+}
+
+.active{
+    background-color: #d2d5ff;
+    color: #ffffff;
+}
+
+body {
+    background-color: #adc0ff;
+}
+
+
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size:33 px;
+    font-family: cursive;
+    color: #ffffff;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: ;
+}
+
+p {
+    width: 2500px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+#place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+    border: 5px outset #1400ff;
+    background-color: #3100ff;
+    color: #ffffff;
+}
+
+
+    } 
+}
+
+figcaption {
+    text-align: center;
+    margin: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    
+}
+
+#lowPoly {
+    margin: 25px;
+    background-color: black;
+    padding: 10px;
+    align-self: center;
+    display:block;
+    width: auto;
+    height: auto;
+    margin:18px auto;
+    border:1px solid #000000;
+}
+
+
+
+#card {
+    margin: 25px;
+    width: 75%;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+    align-self: center;
+}
+
+#cards {
+    margin: auto;
+}
+
+
+
+
+
+#form-contact{
+    margin: 30px;
+    color: #ffffff;
+    font-family: Do Hyeon;
+    font-size: 20px;
+}
+
+button#button-contact{
+    width:100px;
+    height:40px;
+    font-weight:500;
+    margin-top:10px;
+    margin-bottom:15px;
+    box-shadow: 1px 1px 5px #fcfcfc;
+    color: #1d00ff;
+    background-color: #e0efdf;
+    font-family: Do Hyeon;
+    font-size: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: left;
+    align-self: flex-end;
+    padding: 4px;
+    
+}
