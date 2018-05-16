@@ -11,7 +11,7 @@ html{
 
 #container{
     width: 2000px;
-    border: 10px outset #3d27e5;
+    border: 10px outset #4973ff;
     margin: auto;
     background-color: #333333;
 }
@@ -40,11 +40,11 @@ header {
 
 nav {
     width:60%;
-    background-color: #0000ff;
+    background-color: #4973ff;
     clear: both;
     font-family: cursive;
     font-size: 18px;
-    box-shadow: 3px 3px 3px #7056ff;
+    box-shadow: 3px 3px 3px #4973ff;
     color: #ffffff;
 }
 
@@ -81,24 +81,24 @@ nav ul li a:hover {
 }
 
 body {
-    background-color: #0000ff;
+    background-color: #4973ff;
 }
 
 
 
 h1 {
    
-    font-size:33 px;
+    font-size:33px;
     font-family: cursive;
     color: #ffffff;
-    background-color: #adadad;
+    
 }
 
 #about{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: ;
+    
 }
 
 p {
@@ -135,8 +135,7 @@ figure{
 }
 
 
-    } 
-}
+    
 
 figcaption {
     text-align: center;
@@ -155,7 +154,7 @@ figcaption {
     width: auto;
     height: auto;
     margin:18px auto;
-    border:1px solid #000000;
+    border:1px solid #1d1d1d;
 }
 
 
@@ -208,5 +207,5 @@ footer{
 }
 h2{
     color: #ffffff;
-    background-color: #adadad;
+    
 }
